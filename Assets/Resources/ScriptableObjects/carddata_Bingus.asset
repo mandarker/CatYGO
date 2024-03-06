@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e62ce7b3e39f2aa45b92d4696df7a935, type: 3}
-  m_Name: carddata_GrumpyCat
+  m_Name: carddata_Bingus
   m_EditorClassIdentifier: 
   _cardID: 1
-  _cardName: Grumpy Cat
-  _cardTexture: {fileID: 0}
+  _cardName: Bingus
+  _cardTexture: {fileID: 2800000, guid: bdbaa67971507cf4b9cb17b4bfe4057c, type: 3}
   _cardType: 0
-  _cardDescription: The card across
-  _attack: 0
+  _cardDescription: Little bingus boy.
+  _attack: 2000
   _defense: 0
   _effects: []

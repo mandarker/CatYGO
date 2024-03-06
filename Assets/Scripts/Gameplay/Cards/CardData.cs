@@ -9,7 +9,7 @@ namespace SYGO.Gameplay.Cards
     [CreateAssetMenu(menuName = "SYGO/Card Data")]
     public sealed class CardData : ScriptableObject
     {
-        public enum CardType { MONSTER, MAGIC, TRAP }
+        public enum CardType { NORMAL, EFFECT, MAGIC, TRAP }
 
         [SerializeField] private int _cardID;
         [SerializeField] private string _cardName;
@@ -25,6 +25,7 @@ namespace SYGO.Gameplay.Cards
 
         public int CardID { get { return _cardID; } }
         public string CardName { get { return _cardName; } }
+        public Texture2D CardTexture {  get { return _cardTexture; } }
         public CardType Type { get { return _cardType; } }
         public string CardDescription { get { return _cardDescription; } }
 

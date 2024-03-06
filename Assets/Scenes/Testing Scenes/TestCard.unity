@@ -329,6 +329,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1197086019, guid: 6eb91f7cc3ca613449549b7cf4cc8c04, type: 3}
+      propertyPath: _defaultCardData
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4167395646887099736, guid: 6eb91f7cc3ca613449549b7cf4cc8c04, type: 3}
       propertyPath: m_Name
       value: Card
@@ -377,5 +381,82 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4167395647180634599, guid: 6eb91f7cc3ca613449549b7cf4cc8c04, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 580.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167395647180634648, guid: 6eb91f7cc3ca613449549b7cf4cc8c04, type: 3}
+      propertyPath: m_fontSize
+      value: 31.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167395647180634648, guid: 6eb91f7cc3ca613449549b7cf4cc8c04, type: 3}
+      propertyPath: m_lineSpacing
+      value: 41.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167395647180634648, guid: 6eb91f7cc3ca613449549b7cf4cc8c04, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 31.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167395647180634648, guid: 6eb91f7cc3ca613449549b7cf4cc8c04, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6eb91f7cc3ca613449549b7cf4cc8c04, type: 3}
+--- !u!114 &1851354331 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1197086019, guid: 6eb91f7cc3ca613449549b7cf4cc8c04, type: 3}
+  m_PrefabInstance: {fileID: 1851354330}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0b4e1c92b72ff43b48ae4f49ed63c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2090711745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2090711746}
+  - component: {fileID: 2090711747}
+  m_Layer: 0
+  m_Name: TestCardUIController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2090711746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090711745}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.006438528, y: 1.0664678, z: 0.02384144}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2090711747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2090711745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c40496c19da4633478417687468856c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _testCardData: {fileID: 11400000, guid: e13177629837efc47a36662acd9e3e41, type: 2}
+  _cardUIController: {fileID: 1851354331}

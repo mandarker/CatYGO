@@ -139,8 +139,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 45.8, y: 0.000061035156}
-  m_SizeDelta: {x: 572.5, y: 57.6}
+  m_AnchoredPosition: {x: -459, y: 0.000061035156}
+  m_SizeDelta: {x: 572.69, y: 57.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4167395646165658088
 CanvasRenderer:
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 505.04822, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -747,6 +747,9 @@ MonoBehaviour:
   _cardDescription: {fileID: 4167395647180634648}
   _cardAttack: {fileID: 4167395646165658103}
   _cardDefense: {fileID: 4167395646478081126}
+  _cardAttackHeader: {fileID: 4167395646616150822}
+  _cardDefenseHeader: {fileID: 4167395647285730795}
+  _spriteRenderer: {fileID: 4167395646887099738}
 --- !u!1 &4167395647180634598
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,8 +843,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22.2
-  m_fontSizeBase: 22.2
+  m_fontSize: 28.6
+  m_fontSizeBase: 28.6
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
